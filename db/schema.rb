@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091021092700) do
+ActiveRecord::Schema.define(:version => 20091022115548) do
 
   create_table "comments", :force => true do |t|
     t.string   "commenter"
@@ -19,12 +19,8 @@ ActiveRecord::Schema.define(:version => 20091021092700) do
     t.datetime "updated_at"
   end
 
-  create_table "posts", :force => true do |t|
-    t.string   "title"
-    t.string   "content"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+# Could not dump table "posts" because of following StandardError
+#   Unknown type 'reference' for column 'user'
 
   create_table "users", :force => true do |t|
     t.string   "email"
