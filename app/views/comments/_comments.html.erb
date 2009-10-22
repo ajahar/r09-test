@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>Commenter</th>
+    <th>Comment</th>
+  </tr>
+
+<% @comments.each do |comment| %>
+  <tr>
+    <td><%= comment.commenter %></td>
+    <td><%= simple_format(comment.body) %></td>
+  </tr>
+<% end %>
+</table>
+
+
+<%= link_to "New Comment", new_post_comment_path(@post) %>
