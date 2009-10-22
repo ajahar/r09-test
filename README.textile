@@ -1,2 +1,3 @@
+h1. HHLC Rails course
 
 Rails course test that will be deleted after it
