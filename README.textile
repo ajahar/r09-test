@@ -1,3 +1,3 @@
-h1. HHLC Rails course
+h1. HHLC Rails course tutorial app
 
-Rails course test that will be deleted after it
+Blog application from HAAGAHELIA Linux Club Rails course.
